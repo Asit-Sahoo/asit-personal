@@ -60,8 +60,8 @@ color:white;
 
 .gallery{
 position:relative;
-width:320px;
-height:320px;
+width:380px;  /* increased from 320px */
+height:380px; /* increased from 320px */
 margin:auto;
 margin-top:30px;
 }
@@ -69,8 +69,8 @@ margin-top:30px;
 /* CENTER IMAGE */
 
 .center{
-width:120px;
-height:120px;
+width:160px;   /* increased from 120px */
+height:160px;  /* increased from 120px */
 border-radius:50%;
 position:absolute;
 top:50%;
@@ -93,8 +93,8 @@ animation:spin 14s linear infinite;
 }
 
 .orbit-container img{
-width:70px;
-height:70px;
+width:90px;    /* increased from 70px */
+height:90px;   /* increased from 70px */
 border-radius:50%;
 position:absolute;
 top:50%;
@@ -105,19 +105,19 @@ object-fit:cover;
 /* POSITIONS */
 
 .orbit-container img:nth-child(1){
-transform:rotate(0deg) translateX(140px);
+transform:rotate(0deg) translateX(170px); /* adjusted from 140px */
 }
 .orbit-container img:nth-child(2){
-transform:rotate(72deg) translateX(140px);
+transform:rotate(72deg) translateX(170px);
 }
 .orbit-container img:nth-child(3){
-transform:rotate(144deg) translateX(140px);
+transform:rotate(144deg) translateX(170px);
 }
 .orbit-container img:nth-child(4){
-transform:rotate(216deg) translateX(140px);
+transform:rotate(216deg) translateX(170px);
 }
 .orbit-container img:nth-child(5){
-transform:rotate(288deg) translateX(140px);
+transform:rotate(288deg) translateX(170px);
 }
 
 @keyframes spin{
@@ -152,34 +152,34 @@ animation:floatUp 4s ease-in-out forwards;
 @media(max-width:500px){
 
 .gallery{
-width:260px;
-height:260px;
+width:300px;   /* slightly bigger than before */
+height:300px;
 }
 
 .center{
-width:100px;
-height:100px;
+width:140px;
+height:140px;
 }
 
 .orbit-container img{
-width:60px;
-height:60px;
+width:75px;
+height:75px;
 }
 
 .orbit-container img:nth-child(1){
-transform:rotate(0deg) translateX(110px);
+transform:rotate(0deg) translateX(130px);
 }
 .orbit-container img:nth-child(2){
-transform:rotate(72deg) translateX(110px);
+transform:rotate(72deg) translateX(130px);
 }
 .orbit-container img:nth-child(3){
-transform:rotate(144deg) translateX(110px);
+transform:rotate(144deg) translateX(130px);
 }
 .orbit-container img:nth-child(4){
-transform:rotate(216deg) translateX(110px);
+transform:rotate(216deg) translateX(130px);
 }
 .orbit-container img:nth-child(5){
-transform:rotate(288deg) translateX(110px);
+transform:rotate(288deg) translateX(130px);
 }
 
 }
